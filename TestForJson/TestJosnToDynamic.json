@@ -1,0 +1,123 @@
+﻿{
+  "Required": {
+    "EffectiveTime": {
+      "privatePrefix": "/effectiveTime",
+      "Low": "/low@value",
+      "High": "/high@value"
+    },
+    "Patient": {
+      "privatePrefix": "/componentOf//subject/trialSubject/subjectDemographicPerson",
+      "Name": "/name",
+      "PatientId": "/PatientID",
+      "Age": "/Age",
+      "BirthDay": "/birthTime@value",
+      "RaceCode": "/raceCode@code",
+      "Bed": "/Bed",
+      "Room": "/Room"
+    },
+    "Leads": {
+      "TimeAbsolute": {
+        "Head": {
+          "privatePrefix": "/component/series/component/sequenceSet/component[1]//head",
+          "Value": "@value",
+          "Unit": "@unit"
+        },
+        "Increment": {
+          "privatePrefix": "/component/series/component/sequenceSet/component[1]//increment",
+          "Value": "@value",
+          "Unit": "@unit"
+        }
+      },
+      "LEAD_I": {
+        "privatePrefix": "/component/series/component/sequenceSet/component[2]",
+        "Code": "//code@code",
+        "Origin": {
+          "privatePrefix": "/component/series/component/sequenceSet/component[2]//origin",
+          "Value": "@value",
+          "Unit": "@unit"
+        },
+        "Scale": {
+          "privatePrefix": "/component/series/component/sequenceSet/component[2]//scale",
+          "Value": "@value",
+          "Unit": "@unit"
+        },
+        "Digits": "//digits"
+      },
+      "LEAD_II": {
+
+      },
+      "LEAD_III": {
+
+      },
+      "LEAD_AVR": {
+
+      },
+      "LEAD_AVL": {
+
+      },
+      "LEAD_AVF": {
+
+      },
+      "LEAD_V1": {
+
+      },
+      "LEAD_V2": {
+
+      },
+      "LEAD_V3": {
+
+      },
+      "LEAD_V4": {
+
+      },
+      "LEAD_V5": {
+
+      },
+      "LEAD_V6": {
+
+      }
+    }
+
+  },
+  "AdditionInfo": {
+    "Author": {
+      "privatePrefix": "/component/series/author/seriesAuthor",
+      "ManufacturerModelName": "/manufacturerModelName",
+      "SoftwarName": "/softwareName",
+      "Company": "/manufacturerOrganization/name"
+    },
+    "ECGAbout": {
+
+      "Heart_rate": {
+        "privatePrefix": "/component/series/subjectOf/annotationSet/component[1]//value",
+        "Value": "@value",
+        "Unit": "@unit"
+
+      },
+      "PR": {
+        "privatePrefix": "/component/series/subjectOf/annotationSet/component[2]//value",
+        "Value": "@value",
+        "Unit": "@unit"
+
+      },
+      "QRS": {
+        "privatePrefix": "/component/series/subjectOf/annotationSet/component[3]//value",
+        "Value": "@value",
+        "Unit": "@unit"
+
+      },
+      "QT": {
+        "privatePrefix": "/component/series/subjectOf/annotationSet/component[4]//value",
+        "Value": "@value",
+        "Unit": "@unit"
+
+      },
+      "QTc": {
+        "privatePrefix": "/component/series/subjectOf/annotationSet/component[5]//value",
+        "Value": "@value",
+        "Unit": "@unit"
+
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+﻿{
+	"PiccoItemList": [{
+		"Slot": 1,
+		"Cell": 2,
+		"InCellType": 1,
+		"ItemName": "SpO2",
+		"Unit": "ml",
+		"Factor": 0.1
+	}, {
+		"Slot": 1,
+		"Cell": 2,
+		"InCellType": 1,
+		"ItemName": "SpO2",
+		"Unit": "ml",
+		"Factor": 0.1
+	}, {
+		"Slot": 1,
+		"Cell": 2,
+		"InCellType": 1,
+		"ItemName": "SpO2",
+		"Unit": "ml",
+		"Factor": 0.1
+	}]
+}

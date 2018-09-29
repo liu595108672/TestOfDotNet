@@ -1,0 +1,6 @@
+﻿{
+  "MonitorName":"DefaultName",
+  "AdapterList": [
+    "defaultAdapter1","defaultAdapter2","defaultAdapter3"
+  ]
+}
